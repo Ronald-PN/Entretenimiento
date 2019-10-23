@@ -1,0 +1,135 @@
+.slider{
+ 
+    height:590px ;
+    margin-left:25%;
+    bottom:0px;
+    position: fixed;
+    width:700px;
+    
+    overflow:hidden;
+    }
+    
+    .slider ul{
+    display:flex;
+    padding:0;
+    width:400%;
+    animation: cambio 20s infinite alternate ;
+    
+    }
+    .slider li{
+    width:100%;
+    list-style:none;
+    
+    }
+    .slider img{
+    width:100%;
+    
+    }
+    @keyframes cambio{
+    0% {margin-left:0;}
+    0% {margin-left:0;}
+    
+    0% {margin-left:-100%;}
+    0% {margin-left:-100%;}
+    
+    0% {margin-left:-200%;}
+    0% {margin-left:-200%;}
+    
+    0% {margin-left:-300%;}
+    0% {margin-left:-300%;}
+    
+    }
+
+    
+    header nav{
+      
+        background-color: rgb(236, 19, 19); 
+        overflow: hidden;
+        height:500px;
+        width: 100px;
+     
+        font-size: 20px;
+        bottom:8px;
+    
+    }
+    header nav ul{
+        list-style: none;
+     
+    }
+    header nav ul li a{
+      
+        color:#fff;
+        text-decoration: none;
+        margin-left: 100px; 
+       
+    }
+    
+    header nav ul li {
+    float: left;
+    
+    }
+    header nav ul li a:hover{
+    background: green;
+    }
+    header nav{
+        position:fixed;
+        background-color: rgba(6, 2, 226, 0.507); 
+        overflow: hidden;
+        width:250px;
+        
+        font-size: 24px;
+        bottom:8px;
+        height: 95%;
+       
+       
+       
+    
+    }
+    header nav ul{
+        list-style: none;
+        margin-left: -85px;
+        padding:10px;
+     
+    }
+    header nav ul li a{
+      
+        color: white;
+        text-decoration: none;  
+    }
+
+
+      
+
+    
+    
+    header nav ul li {
+        float: left;
+     
+    
+    
+    }
+    header nav ul li a:hover{
+    background: green;
+    
+    }
+ .ancho{
+     width: 1500px;
+ 
+        }
+       
+        h1{
+            position: fixed;
+        font-size:50px;
+        color:rgb(9, 13, 221);
+        margin-top:4px;
+        margin-left:520px;
+     
+        
+        }
+        .menu{
+            margin-left:86px;
+        }
+        
+   
+   
+    

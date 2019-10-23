@@ -1,0 +1,125 @@
+.slider{
+ 
+    height:570px ;
+    margin-left:30%;
+    bottom:60px;
+    position: fixed;
+    width:500px;
+    
+    overflow:hidden;
+    }
+    
+    .slider ul{
+    display:flex;
+    padding:0;
+    width:400%;
+    animation: cambio 20s infinite alternate ;
+    
+    }
+    .slider li{
+    width:70%;
+    list-style:none;
+    
+    }
+    .slider img{
+    width:100%;
+    
+    }
+    @keyframes cambio{
+    0% {margin-left:0;}
+    20% {margin-left:0;}
+    
+    25% {margin-left:-100%;}
+    45% {margin-left:-100%;}
+    
+    50% {margin-left:-200%;}
+    70% {margin-left:-200%;}
+    
+    75% {margin-left:-300%;}
+    100% {margin-left:-300%;}
+    
+    }
+    
+    
+    
+    body{
+        background-color: rgb(255, 118, 141);
+    
+  
+    
+    }
+    
+    
+    
+    header nav{
+        position:fixed;
+        background-color: rgb(12, 143, 231); 
+        color:black;
+        overflow: hidden;
+        width:65%;
+        margin-left: 440px;
+        font-size: 22px;
+        bottom:7px;
+      
+    
+        
+    
+      
+    }
+    header nav ul{
+        list-style: none;
+     
+    }
+    header nav ul li a{
+      
+        color:#fff;
+        text-decoration: none;
+        margin-left: 100px;
+       
+       
+    }
+
+header nav ul li {
+   float: left;
+    
+}
+header nav ul li a:hover{
+    background: green;
+  
+     
+ }
+
+
+
+
+    h1{
+   
+      position:fixed;
+        font-size:50px;
+        color:rgb(66, 76, 219);
+        margin-top:14px;
+        margin-left:670px;
+    }
+.fondopoesia:hover{
+    background-color: honeydew;
+}
+    
+.contenido{
+    position: relative;
+    border:1px solid gray;
+   background-color: rgb(1, 199, 11);
+    color:rgb(255, 255, 255);
+    margin-left:10px;
+    width:29%;
+    font-size: 20px;
+    
+    margin-top:-30px;
+}
+.poesias4{
+    position:fixed;
+       margin-left: 930px;
+       height:620px ;
+       margin-top: 70px;
+    
+    }
+    
